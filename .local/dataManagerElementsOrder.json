@@ -1,0 +1,66 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Loan Application - Fail.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ReceivedLoanRate&Sequence_4",
+        "ExpectedLoanRate&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "LoanEmail",
+        "LoanAmount",
+        "LoanTerm",
+        "LoanIncome",
+        "LoanAge",
+        "LoanGranted",
+        "LoanRate",
+        "Message"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Create Loan.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "LoanEmail",
+        "LoanAmount",
+        "LoanTerm",
+        "LoanIncome",
+        "LoanAge"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Loan Application - Pass.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ReceivedLoanRate&Sequence_4",
+        "ExpectedLoanRate&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "LoanEmail",
+        "LoanAmount",
+        "LoanTerm",
+        "LoanIncome",
+        "LoanAge",
+        "LoanGranted",
+        "LoanRate",
+        "Message"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
