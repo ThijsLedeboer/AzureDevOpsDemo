@@ -1,0 +1,70 @@
+{
+  "name": "UiBank_Testing_Win",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[21.10.6]",
+    "UiPath.Testing.Activities": "[22.10.3]",
+    "UiPath.UIAutomation.Activities": "[22.10.4]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.4.0.0",
+  "projectVersion": "1.0.136731509",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": [
+        "UI-API_Recorder.xaml",
+        "Tests/Medium Volume Data-driven.xaml",
+        "Tests/Medium Volume Loan - Fail.xaml",
+        "Tests/Medium Volume Loan - Pass.xaml",
+        "Tests/UI-API_Recorder.xaml"
+      ]
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "11ca7674-60fb-46f8-9cb7-1f519ddfa9f9",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\Loan Application - Pass.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "227006a7-20ca-4528-b0f2-4a7b2b68d968",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\Loan Application - Fail.xaml"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
