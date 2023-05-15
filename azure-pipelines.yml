@@ -1,0 +1,30 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+pool:
+  vmImage: windows-latest
+
+steps:
+- task: UiPathPack@3
+  inputs:
+    versionType: 'AutoVersion'
+    projectJsonPath: '$(Build.SourcesDirectory)'
+    orchestratorConnection: 'AzureDevOpsDemo'
+    outputPath: '(Build.ArtifactStagingDirectory)\Output'
+- task: UiPathTest@3
+  inputs:
+    testTarget: 'TestProject'
+    orchestratorConnection: 'AzureDevOpsDemo'
+    testProjectPath: '$(Build.SourcesDirectory)\Tests'
+    folderName: 'Thijs_Demo'
+- task: UiPathDeploy@3
+  inputs:
+    orchestratorConnection: 'AzureDevOpsDemo'
+    packagesPath: '$(Build.ArtifactStagingDirectory)\Output'
+    folderName: 'Thijs_Demo'
+    entryPoints: 'Create Loan.xaml''
