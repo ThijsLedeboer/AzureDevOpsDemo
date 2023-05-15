@@ -198,11 +198,7 @@
     <Sequence DisplayName="... Then" sap:VirtualizedContainerService.HintSize="546,961" sap2010:WorkflowViewState.IdRef="Sequence_4">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="ReceivedLoanRate" />
-        <Variable x:TypeArguments="x:String" Name="ExpectedLoanRate">
-          <Variable.Default>
-            <Literal x:TypeArguments="x:String">8</Literal>
-          </Variable.Default>
-        </Variable>
+        <Variable x:TypeArguments="x:String" Default="8" Name="ExpectedLoanRate" />
       </Sequence.Variables>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -210,7 +206,7 @@
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: UiBank" sap:VirtualizedContainerService.HintSize="484,489" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="8956dce7-0a6c-4bdf-900d-3ff6f84669d0" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="Use Browser Edge: UiBank" sap:VirtualizedContainerService.HintSize="484,489" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="8956dce7-0a6c-4bdf-900d-3ff6f84669d0" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
