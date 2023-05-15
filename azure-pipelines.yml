@@ -27,4 +27,4 @@ steps:
     orchestratorConnection: 'AzureDevOpsDemo'
     packagesPath: '$(Build.ArtifactStagingDirectory)\Output'
     folderName: 'Thijs_Demo'
-    entryPoints: 'Create Loan.xaml''
+    entryPoints: 'Create Loan.xaml'
