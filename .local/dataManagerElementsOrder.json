@@ -9,7 +9,7 @@
       "AddedNamespaces": null
     },
     {
-      "Path": "Loan Application - Fail.xaml",
+      "Path": "Tests/Loan Application - Fail.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
         "ReceivedLoanRate&Sequence_4",
@@ -43,7 +43,7 @@
       "AddedNamespaces": null
     },
     {
-      "Path": "Loan Application - Pass.xaml",
+      "Path": "Tests/Loan Application - Pass.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
         "ReceivedLoanRate&Sequence_4",
