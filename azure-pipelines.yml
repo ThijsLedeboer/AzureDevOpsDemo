@@ -15,7 +15,7 @@ steps:
     versionType: 'AutoVersion'
     projectJsonPath: '$(Build.SourcesDirectory)'
     orchestratorConnection: 'AzureDevOpsDemo'
-    outputPath: '(Build.ArtifactStagingDirectory)\Output'
+    outputPath: '$(Build.ArtifactStagingDirectory)\Output'
 - task: UiPathTest@3
   inputs:
     testTarget: 'TestProject'
